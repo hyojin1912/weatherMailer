@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     # 'nlp',
     # 'worry',
     # 'image_crawl',
-    'verify_close'
+    'weather_info'
 ]
 
 MIDDLEWARE = [

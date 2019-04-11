@@ -11,8 +11,8 @@ from time import sleep
 import json
 
 @csrf_exempt
-def verify_close(name):
-    print("verify_close 호출")
+def weather_info(name):
+    print("weather_info 호출")
     # url = 'https://search.naver.com/search.naver?sm=top_hty&fbm=0&ie=utf8&query='+str(name)
     # headers = {
     #     'user-agent' : 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
